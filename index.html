@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="escuro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Henrique Reis | Desenvolvedor Back-end</title>
+  <meta name="description" content="Portfólio de Pedro Henrique Reis, desenvolvedor back-end focado em APIs, arquitetura e CI/CD. Estudante de Ciência da Computação no IFNMG.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho__container">
+      <a href="#inicio" class="cabecalho__logo">
+        <span class="cabecalho__icone">&lt;/&gt;</span>
+        <span class="cabecalho__nome">Pedro Henrique Reis</span>
+      </a>
+
+      <nav class="cabecalho__nav" aria-label="Navegação principal">
+        <ul class="cabecalho__lista">
+          <li class="cabecalho__item"><a class="cabecalho__link" href="#sobre">Sobre</a></li>
+          <li class="cabecalho__item"><a class="cabecalho__link" href="#servicos">Especialidades</a></li>
+          <li class="cabecalho__item"><a class="cabecalho__link" href="#projetos">Projetos</a></li>
+          <li class="cabecalho__item"><a class="cabecalho__link" href="#presenca">Presença</a></li>
+          <li class="cabecalho__item"><a class="cabecalho__link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="cabecalho__tema" id="botaoAlternarTema" aria-label="Alternar tema claro ou escuro">
+        Tema
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__conteudo">
+          <p class="hero__tag">DESENVOLVEDOR BACK-END</p>
+          <h1 class="hero__titulo">Pedro Henrique Reis</h1>
+          <p class="hero__subtitulo">
+            Sou desenvolvedor back-end estudando Ciência da Computação no IFNMG. Foco em construir lógicas de back end bem estruturadas , escaláveis e seguras.
+          </p>
+
+          <div class="hero__ctas">
+            <a class="botao botao--primario" href="#projetos">Conheça meu trabalho</a>
+            <a class="botao botao--secundario" href="#contato">Vamos conversar</a>
+          </div>
+
+          <ul class="hero__metricas">
+            <li class="hero__metrica">
+              <strong class="hero__metrica-valor">IFNMG</strong>
+              <span class="hero__metrica-rotulo">Ciência da Computação</span>
+            </li>
+            <li class="hero__metrica">
+              <strong class="hero__metrica-valor">Back-end</strong>
+              <span class="hero__metrica-rotulo">APIs e Arquitetura</span>
+            </li>
+          </ul>
+
+          <div class="hero__status">
+            <span class="hero__status-ponto" aria-hidden="true"></span>
+            <span class="hero__status-texto">Em busca de oportunidades e projetos</span>
+          </div>
+        </div>
+
+        <aside class="hero__codigo" aria-label="Bloco de código decorativo">
+          <pre class="hero__pre"><code>const solucao = {
+  codigo: 'limpo',
+  foco: 'desenvolvimento_backend'
+};
+</code></pre>
+        </aside>
+      </div>
+
+      <a class="hero__scroll" href="#sobre" aria-label="Ir para a seção Sobre">
+        <span class="hero__scroll-seta" aria-hidden="true">↓</span>
+      </a>
+    </section>
+
+    <section class="secao" id="sobre">
+      <div class="container">
+        <p class="secao__tag">SOBRE MIM</p>
+        <h2 class="secao__titulo">Lógica de negócios, performance e dados.</h2>
+        <p class="secao__descricao">
+          Sou Pedro Henrique Reis, estudante de Ciência da Computação no IFNMG e desenvolvedor back-end. 
+          Meu foco está em projetar a estrutura que faz as aplicações funcionarem por baixo dos panos de forma otimizada , rápida e com bastante performance.
+        </p>
+        <ul class="badges">
+          <li class="badges__item">APIs RESTful</li>
+          <li class="badges__item">Typescript</li>
+          <li class="badges__item">Next</li>
+          <li class="badges__item">Bancos de Dados</li>
+          <li class="badges__item">Linux</li>
+	  <li class="badges__item">Python</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="secao secao--alt" id="servicos">
+      <div class="container">
+        <p class="secao__tag">O QUE EU FAÇO</p>
+        <h2 class="secao__titulo">Soluções para o lado do servidor</h2>
+        <div class="grade grade--tres">
+          <article class="card">
+            <span class="card__icone" aria-hidden="true">⌘</span>
+            <h3 class="card__titulo">Desenvolvimento de APIs</h3>
+            <p class="card__texto">
+              Criação de serviços robustos e integrados, focando em performance, segurança, controle de acesso e manutenibilidade do código.
+            </p>
+            <a class="card__link" href="#contato">Saiba mais</a>
+          </article>
+          <article class="card">
+            <span class="card__icone" aria-hidden="true">▣</span>
+            <h3 class="card__titulo">Modelagem de Dados</h3>
+            <p class="card__texto">
+              Estruturação e manipulação de bancos de dados relacionais , garantindo integridade e consultas otimizadas.
+            </p>
+            <a class="card__link" href="#contato">Saiba mais</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="projetos">
+      <div class="container">
+        <p class="secao__tag">PORTFÓLIO</p>
+        <h2 class="secao__titulo">Projetos e soluções em código</h2>
+        <div class="grade grade--tres">
+          <article class="card card--projeto">
+            <h3 class="card__titulo">API de Gestão (REST)</h3>
+            <p class="card__subtitulo">Desenvolvimento Back-end</p>
+            <p class="card__texto">
+              Sistema web com autenticação, validação de requisições, integração com banco de dados e rotas protegidas.
+            </p>
+            <div class="preview">
+              <div class="preview__linha">
+                <span class="preview__rotulo">Endpoints criados</span>
+                <strong class="preview__valor">18</strong>
+              </div>
+              <div class="preview__linha">
+                <span class="preview__rotulo">Status</span>
+                <strong class="preview__valor preview__valor--positivo">Concluído</strong>
+              </div>
+            </div>
+          </article>
+          <article class="card card--projeto">
+            <h3 class="card__titulo">Scripts de Automação</h3>
+            <p class="card__subtitulo">Python & Tarefas</p>
+            <p class="card__texto">
+              Criação de scripts customizados em Python usando bibliotecas como requests e argparse para automatizar processos repetitivos e manipulação de dados.
+            </p>
+            <div class="preview preview--lista">
+              <div class="preview__item">
+                <span class="preview__nome">CLI Tool</span>
+                <span class="preview__meta">Python</span>
+              </div>
+              <div class="preview__item">
+                <span class="preview__nome">Data Parser</span>
+                <span class="preview__meta">Python</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao--alt" id="presenca">
+      <div class="container">
+        <p class="secao__tag">PRESENÇA ONLINE</p>
+        <h2 class="secao__titulo">Onde me encontrar e acompanhar</h2>
+        <div class="grade grade--quatro">
+          <a class="card card--link" href="https://github.com/PedroHenriqueBRO" target="_blank" rel="noopener noreferrer">
+            <h3 class="card__titulo">GitHub</h3>
+            <p class="card__texto">Projetos back-end, scripts em Python e repositórios públicos.</p>
+            <span class="card__link">github.com/PedroHenriqueBRO ↗</span>
+          </a>
+          <a class="card card--link" href="https://www.linkedin.com/in/pedro-henrique-reis-5b4325360/" target="_blank" rel="noopener noreferrer">
+            <h3 class="card__titulo">LinkedIn</h3>
+            <p class="card__texto">Networking, evolução profissional e trajetória acadêmica.</p>
+            <span class="card__link">Pedro Henrique Reis ↗</span>
+          </a>
+          <a class="card card--link" href="#contato">
+            <h3 class="card__titulo">E-mail</h3>
+            <p class="card__texto">Contato direto para propostas de trabalho e projetos.</p>
+            <span class="card__link">Enviar mensagem ↗</span>
+          </a>
+          <a class="card card--link" href="#projetos">
+            <h3 class="card__titulo">Portfólio</h3>
+            <p class="card__texto">Meus principais estudos de arquitetura e código.</p>
+            <span class="card__link">Ver projetos ↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="processo">
+      <div class="container">
+        <p class="secao__tag">MEU PROCESSO</p>
+        <h2 class="secao__titulo">Da lógica à produção</h2>
+        <ol class="processo">
+          <li class="processo__item">
+            <span class="processo__numero">01</span>
+            <div class="processo__corpo">
+              <h3 class="processo__titulo">Planejamento e Requisitos</h3>
+              <p class="processo__texto">Entendimento da regra de negócio, escopo da aplicação e definição do fluxo de dados necessários.</p>
+            </div>
+          </li>
+          <li class="processo__item">
+            <span class="processo__numero">02</span>
+            <div class="processo__corpo">
+              <h3 class="processo__titulo">Arquitetura e Modelagem</h3>
+              <p class="processo__texto">Estruturação do banco de dados, definição das rotas da API e escolha das melhores bibliotecas.</p>
+            </div>
+          </li>
+          <li class="processo__item">
+            <span class="processo__numero">03</span>
+            <div class="processo__corpo">
+              <h3 class="processo__titulo">Desenvolvimento</h3>
+              <p class="processo__texto">Escrita do código (Python, Node.js), implementação da lógica de negócios e testes de integração.</p>
+            </div>
+          </li>
+          <li class="processo__item">
+            <span class="processo__numero">04</span>
+            <div class="processo__corpo">
+              <h3 class="processo__titulo">Deploy e Manutenção</h3>
+              <p class="processo__texto">Entrega em produção utilizando pipelines de automação (CI/CD) e monitoramento do sistema.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="secao secao--contato" id="contato">
+      <div class="container">
+        <h2 class="secao__titulo secao__titulo--centro">Tem um projeto? Vamos codar.</h2>
+        <p class="secao__descricao secao__descricao--centro">
+          Sinta-se à vontade para entrar em contato pelo LinkedIn para conversarmos sobre tecnologia ou conferir meu código no GitHub.
+        </p>
+        <div class="contato__canais">
+          <a class="botao botao--primario" href="https://www.linkedin.com/in/pedro-henrique-reis-5b4325360/" target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+          <a class="botao botao--secundario" href="https://github.com/PedroHenriqueBRO" target="_blank" rel="noopener noreferrer">
+            GitHub ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape__container">
+      <p class="rodape__copy">
+        © 2026 Pedro Henrique Reis. Desenvolvido com criatividade e código.
+      </p>
+      <ul class="rodape__redes">
+        <li>
+          <a class="rodape__link" href="https://www.linkedin.com/in/pedro-henrique-reis-5b4325360/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+        <li>
+          <a class="rodape__link" href="https://github.com/PedroHenriqueBRO" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
